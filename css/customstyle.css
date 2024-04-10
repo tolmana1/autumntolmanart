@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+
+.jost-<uniquifier> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    font-size: medium;
+    font-family: Jost, Geneva, Tahoma, sans-serif;
+    color: rgb(51, 67, 25);
+    background-color: rgb(240, 242, 240);
+}
+
+.header {
+    background-color: #4A4A4A;
+    color: white;
+    font-size: 23px;
+    padding: 15px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+}
+
+
+.artist-bio p {
+    float: right; /* Text aligned to left */
+    font-family: Jost, Geneva, Tahoma, sans-serif;
+    width: 60%; /* Adjusted width */
+}
+
+.artist-bio img {
+    float: left; /* Image aligned to right */
+    margin-right: 40px; /* Adjusted margin */
+    font-family: Jost, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.art-details ol {
+    float: right; /* List aligned to left */
+    font-family: Jost, Geneva, Tahoma, sans-serif;
+}
+
+.art-details iframe {
+    float: left; /* Video aligned to right */
+}
